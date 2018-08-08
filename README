@@ -1,0 +1,12 @@
+Parse usage logs (last 2000 jobs) for a universal laser systems laser cutter
+
+The default log directory is:
+"C:\\ProgramData\\ULSMVX"
+
+if your system is different you may need to change the ddir value at the top
+of parse_uls_usage.py
+
+The script outputs a csv file with columns:
+job index, job name, time (unix timestamp), duration (in seconds)
+
+and also a 'raw' pickle file containing much more information.
